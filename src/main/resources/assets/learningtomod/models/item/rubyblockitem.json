@@ -1,3 +1,6 @@
 {
-  "parent": "learningtomod:block/rubyblock"
+  "parent": "learningtomod:block/rubyblock",
+  "textures": {
+    "all": "learningtomod:blocks/rubyblock"
+  }
 }

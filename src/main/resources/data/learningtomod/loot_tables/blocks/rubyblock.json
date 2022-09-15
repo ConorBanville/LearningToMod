@@ -10,7 +10,7 @@
           "name": "learningtomod:rubyblockitem"
         }
       ],
-      "conditions": [
+      "conditions":[
         {
           "condition": "minecraft:survives_explosion"
         }

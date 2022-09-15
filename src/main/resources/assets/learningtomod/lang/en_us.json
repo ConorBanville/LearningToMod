@@ -1,5 +1,6 @@
 {
   "item.learningtomod.ruby": "Ruby",
-  "itemGroup.learning": "Learning",
-  "block.learningtomod.rubyblock": "Ruby Block"
+  "item.learningtomod.rubyblockitem": "Ruby Block",
+  "block.learningtomod.rubyblock": "Ruby Block",
+  "itemGroup.learning": "Learning"
 }
