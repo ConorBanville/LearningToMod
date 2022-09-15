@@ -12,6 +12,7 @@ public class ItemInit {
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ModMain.MODID);
 
     public static RegistryObject<Item> RUBY = ITEMS.register(Ruby.getId(), Ruby::new);
-    public static RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register(RubyBlockItem.getId(),
-            () -> new RubyBlockItem(BlockInit.RUBY_BLOCK.get()));
+    public static RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register(
+            RubyBlockItem.getId(), () -> new RubyBlockItem(BlockInit.RUBY_BLOCK.get())
+    );
 }

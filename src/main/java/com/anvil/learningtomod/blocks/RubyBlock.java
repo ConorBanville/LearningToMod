@@ -22,10 +22,6 @@ public class RubyBlock extends Block {
         super(properties);
     }
 
-    public static BlockBehaviour.Properties getProperties() {
-        return properties;
-    }
-
     public static String getId() {
         return ID;
     }
